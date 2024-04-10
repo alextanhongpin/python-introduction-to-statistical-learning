@@ -13,8 +13,10 @@ ipywidgets = "^8.1.2"
 black = "^24.3.0"
 isort = "^5.13.2"
 matplotlib = "^3.8.4"
-numpy = "^1.26.4"
-pandas = "^2.2.1"
+numpy = ">=1.7.1,<1.25"
+pandas = ">0.20,<=1.9"
+statsmodels = "^0.14.1"
+islp = "^0.3.22"
 
 
 [build-system]
